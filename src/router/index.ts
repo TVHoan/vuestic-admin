@@ -3,14 +3,23 @@ import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
 import AuthLayout from '../layouts/AuthLayout.vue'
 import AppLayout from '../layouts/AppLayout.vue'
 import Page404Layout from '../layouts/Page404Layout.vue'
+import HomeLayout from '../layouts/HomeLayout.vue'
 
 import RouteViewComponent from '../layouts/RouterBypass.vue'
 import UIRoute from '../pages/admin/ui/route'
 
 const routes: Array<RouteRecordRaw> = [
   {
-    path: '/:catchAll(.*)',
-    redirect: { name: 'dashboard' },
+    name: 'public',
+    path: '/',
+    component: HomeLayout,
+    children: [
+      {
+        name: 'home',
+        path: '/',
+        component: () => import('../pages/public/home/Home.vue'),
+      },
+    ],
   },
   {
     name: 'admin',
