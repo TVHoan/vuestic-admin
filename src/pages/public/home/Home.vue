@@ -1,9 +1,9 @@
 <template>
   <div class="container-wrap">
-    <RouterLinkside id="fh5co-hero">
+    <aside id="fh5co-hero">
       <div class="flexslider">
         <ul class="slides">
-          <li style="background-image: url(images/img_bg_1.jpg)">
+          <li style="background-image: url(../static/images/img_bg_1.jpg)">
             <div class="overlay-gradient"></div>
             <div class="container-fluid">
               <div class="row">
@@ -12,18 +12,18 @@
                     <h1>Not Every Project Needs To Be Perfect</h1>
                     <h2>
                       Free html5 templates Available at
-                      <RouterLink to="http://Themewagon.com/theme_tag/free/" target="_blank">Themewagon</RouterLink>
+                      <a href="http://Themewagon.com/theme_tag/free/" target="_blank">Themewagon</a>
                     </h2>
                     <p>
-                      <RouterLink class="btn btn-primary btn-demo" to="#"> View Demo</RouterLink>
-                      <RouterLink class="btn btn-primary btn-learn">Learn More</RouterLink>
+                      <a class="btn btn-primary btn-demo" href="#"> View Demo</a>
+                      <a class="btn btn-primary btn-learn">Learn More</a>
                     </p>
                   </div>
                 </div>
               </div>
             </div>
           </li>
-          <li style="background-image: url(images/img_bg_2.jpg)">
+          <li style="background-image: url(../static/images/img_bg_2.jpg)">
             <div class="overlay-gradient"></div>
             <div class="container-fluid">
               <div class="row">
@@ -32,18 +32,18 @@
                     <h1>WordPress Theme For People Who Tell Stories</h1>
                     <h2>
                       Free html5 templates Available at
-                      <RouterLink to="http://Themewagon.com/theme_tag/free/" target="_blank">Themewagon</RouterLink>
+                      <a href="http://Themewagon.com/theme_tag/free/" target="_blank">Themewagon</a>
                     </h2>
                     <p>
-                      <RouterLink class="btn btn-primary btn-demo" to="#"> View Demo</RouterLink>
-                      <RouterLink class="btn btn-primary btn-learn">Learn More</RouterLink>
+                      <a class="btn btn-primary btn-demo" href="#"> View Demo</a>
+                      <a class="btn btn-primary btn-learn">Learn More</a>
                     </p>
                   </div>
                 </div>
               </div>
             </div>
           </li>
-          <li style="background-image: url(images/img_bg_3.jpg)">
+          <li style="background-image: url(../static/images/img_bg_3.jpg)">
             <div class="overlay-gradient"></div>
             <div class="container-fluids">
               <div class="row">
@@ -52,18 +52,18 @@
                     <h1>What Would You Like To Learn?</h1>
                     <h2>
                       Free html5 templates Available at
-                      <RouterLink to="http://Themewagon.com/theme_tag/free/" target="_blank">Themewagon</RouterLink>
+                      <a href="http://Themewagon.com/theme_tag/free/" target="_blank">Themewagon</a>
                     </h2>
                     <p>
-                      <RouterLink class="btn btn-primary btn-demo" to="#"> View Demo</RouterLink>
-                      <RouterLink class="btn btn-primary btn-learn">Learn More</RouterLink>
+                      <a class="btn btn-primary btn-demo" href="#"> View Demo</a>
+                      <a class="btn btn-primary btn-learn">Learn More</a>
                     </p>
                   </div>
                 </div>
               </div>
             </div>
           </li>
-          <li style="background-image: url(images/img_bg_4.jpg)">
+          <li style="background-image: url(../static/images/img_bg_4.jpg)">
             <div class="overlay-gradient"></div>
             <div class="container-fluid">
               <div class="row">
@@ -72,11 +72,11 @@
                     <h1>I Love to Tell My Story</h1>
                     <h2>
                       Free html5 templates Available at
-                      <RouterLink to="http://Themewagon.com/theme_tag/free/" target="_blank">Themewagon</RouterLink>
+                      <a href="http://Themewagon.com/theme_tag/free/" target="_blank">Themewagon</a>
                     </h2>
                     <p>
-                      <RouterLink class="btn btn-primary btn-demo" to="#"> View Demo</RouterLink>
-                      <RouterLink class="btn btn-primary btn-learn">Learn More</RouterLink>
+                      <a class="btn btn-primary btn-demo" href="#"> View Demo</a>
+                      <a class="btn btn-primary btn-learn">Learn More</a>
                     </p>
                   </div>
                 </div>
@@ -85,7 +85,7 @@
           </li>
         </ul>
       </div>
-    </RouterLinkside>
+    </aside>
     <div id="fh5co-services">
       <div class="row">
         <div class="col-md-4 text-center animate-box">
@@ -94,7 +94,7 @@
               <i class="icon-diamond"></i>
             </span>
             <div class="desc">
-              <h3><RouterLink to="#">Brand Identity</RouterLink></h3>
+              <h3><a href="#">Brand Identity</a></h3>
               <p>
                 Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab
                 aliquam dolor eius.
@@ -108,7 +108,7 @@
               <i class="icon-lab2"></i>
             </span>
             <div class="desc">
-              <h3><RouterLink to="#">Web Design &amp; UI</RouterLink></h3>
+              <h3><a href="#">Web Design &amp; UI</a></h3>
               <p>
                 Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab
                 aliquam dolor eius.
@@ -122,7 +122,7 @@
               <i class="icon-settings"></i>
             </span>
             <div class="desc">
-              <h3><RouterLink to="#">Web Development</RouterLink></h3>
+              <h3><a href="#">Web Development</a></h3>
               <p>
                 Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab
                 aliquam dolor eius.
@@ -145,28 +145,28 @@
       </div>
       <div class="row">
         <div class="col-md-4 text-center animate-box">
-          <RouterLink to="work-single.html" class="work" style="background-image: url(images/portfolio-1.jpg)">
+          <a href="work-single.html" class="work" style="background-image: url(../static/images/portfolio-1.jpg)">
             <div class="desc">
               <h3>Project Name</h3>
               <span>Illustration</span>
             </div>
-          </RouterLink>
+          </a>
         </div>
         <div class="col-md-4 text-center animate-box">
-          <RouterLink to="work-single.html" class="work" style="background-image: url(images/portfolio-2.jpg)">
+          <a href="work-single.html" class="work" style="background-image: url(../static/images/portfolio-2.jpg)">
             <div class="desc">
               <h3>Project Name</h3>
               <span>Brading</span>
             </div>
-          </RouterLink>
+          </a>
         </div>
         <div class="col-md-4 text-center animate-box">
-          <RouterLink to="work-single.html" class="work" style="background-image: url(images/portfolio-3.jpg)">
+          <a href="work-single.html" class="work" style="background-image: url(../static/images/portfolio-3.jpg)">
             <div class="desc">
               <h3>Project Name</h3>
               <span>Illustration</span>
             </div>
-          </RouterLink>
+          </a>
         </div>
       </div>
     </div>
@@ -229,14 +229,12 @@
     </div>
 
     <div id="fh5co-blog" class="blog-flex">
-      <div class="featured-blog" style="background-image: url(images/blog-1.jpg)">
+      <div class="featured-blog" style="background-image: url(../static/images/blog-1.jpg)">
         <div class="desc-t">
           <div class="desc-tc">
             <span class="featured-head">Featured Posts</span>
-            <h3>
-              <RouterLink to="#">Top 20 Best WordPress Themes 2017 Multi Purpose and Creative Websites</RouterLink>
-            </h3>
-            <span><RouterLink to="#" class="read-button">Learn More</RouterLink></span>
+            <h3><a href="#">Top 20 Best WordPress Themes 2017 Multi Purpose and Creative Websites</a></h3>
+            <span><a href="#" class="read-button">Learn More</a></span>
           </div>
         </div>
       </div>
@@ -248,37 +246,38 @@
         </div>
         <div class="row">
           <div class="col-md-12 animate-box">
-            <RouterLink to="#" class="blog-post">
-              <span class="img" style="background-image: url(images/blog-2.jpg)"></span>
+            <a href="#" class="blog-post">
+              <span class="img" style="background-image: url(../static/images/blog-2.jpg)"></span>
               <div class="desc">
                 <h3>26 Best Education WordPress Themes 2017 You Need To See</h3>
                 <span class="cat">Collection</span>
               </div>
-            </RouterLink>
+            </a>
           </div>
           <div class="col-md-12 animate-box">
-            <RouterLink to="#" class="blog-post">
-              <span class="img" style="background-image: url(images/blog-1.jpg)"></span>
+            <a href="#" class="blog-post">
+              <span class="img" style="background-image: url(../static/images/blog-1.jpg)"></span>
               <div class="desc">
                 <h3>16 Outstanding Photography WordPress Themes You Must See</h3>
                 <span class="cat">Collection</span>
               </div>
-            </RouterLink>
+            </a>
           </div>
           <div class="col-md-12 animate-box">
-            <RouterLink to="#" class="blog-post">
-              <span class="img" style="background-image: url(images/blog-3.jpg)"></span>
+            <a href="#" class="blog-post">
+              <span class="img" style="background-image: url(../static/images/blog-3.jpg)"></span>
               <div class="desc">
                 <h3>16 Outstanding Photography WordPress Themes You Must See</h3>
                 <span class="cat">Collection</span>
               </div>
-            </RouterLink>
+            </a>
           </div>
         </div>
       </div>
     </div>
   </div>
   <!-- END container-wrap -->
+
   <div class="container-wrap">
     <footer id="fh5co-footer" role="contentinfo">
       <div class="row">
@@ -292,22 +291,22 @@
         <div class="col-md-3 col-md-push-1">
           <h4>Latest Posts</h4>
           <ul class="fh5co-footer-links">
-            <li><RouterLink to="#">Amazing Templates</RouterLink></li>
-            <li><RouterLink to="#">100+ Free Download Templates</RouterLink></li>
-            <li><RouterLink to="#">Neat is now available</RouterLink></li>
-            <li><RouterLink to="#">Download 1000+ icons</RouterLink></li>
-            <li><RouterLink to="#">Big Deal for this month of March, Join Us here</RouterLink></li>
+            <li><a href="#">Amazing Templates</a></li>
+            <li><a href="#">100+ Free Download Templates</a></li>
+            <li><a href="#">Neat is now available</a></li>
+            <li><a href="#">Download 1000+ icons</a></li>
+            <li><a href="#">Big Deal for this month of March, Join Us here</a></li>
           </ul>
         </div>
 
         <div class="col-md-3 col-md-push-1">
           <h4>Links</h4>
           <ul class="fh5co-footer-links">
-            <li><RouterLink to="#">Home</RouterLink></li>
-            <li><RouterLink to="#">Work</RouterLink></li>
-            <li><RouterLink to="#">Services</RouterLink></li>
-            <li><RouterLink to="#">Blog</RouterLink></li>
-            <li><RouterLink to="#">About us</RouterLink></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Work</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">About us</a></li>
           </ul>
         </div>
 
@@ -318,9 +317,9 @@
               198 West 21th Street, <br />
               Suite 721 New York NY 10016
             </li>
-            <li><RouterLink to="tel://1234567920">+ 1235 2355 98</RouterLink></li>
-            <li><RouterLink to="mailto:info@yoursite.com">info@yoursite.com</RouterLink></li>
-            <li><RouterLink to="">gettemplates.co</RouterLink></li>
+            <li><a href="tel://1234567920">+ 1235 2355 98</a></li>
+            <li><a href="mailto:info@yoursite.com">info@yoursite.com</a></li>
+            <li><a href="">gettemplates.co</a></li>
           </ul>
         </div>
       </div>
@@ -330,24 +329,23 @@
           <p>
             <small class="block">&copy; 2016 Free HTML5. All Rights Reserved.</small>
             <small class="block"
-              >Designed by <RouterLink to="http://freehtml5.co/" target="_blank">FreeHTML5.co</RouterLink> Available at
-              <RouterLink to="http://themewagon.com/" target="_blank">Themewagon</RouterLink> Demo Images:
-              <RouterLink to="http://unsplash.co/" target="_blank">Unsplash</RouterLink></small
+              >Designed by <a href="http://freehtml5.co/" target="_blank">FreeHTML5.co</a> Available at
+              <a href="http://themewagon.com/" target="_blank">Themewagon</a> Demo Images:
+              <a href="http://unsplash.co/" target="_blank">Unsplash</a></small
             >
           </p>
-          <p></p>
           <ul class="fh5co-social-icons">
             <li>
-              <RouterLink to="#"><i class="icon-twitter"></i></RouterLink>
+              <a href="#"><i class="icon-twitter"></i></a>
             </li>
             <li>
-              <RouterLink to="#"><i class="icon-facebook"></i></RouterLink>
+              <a href="#"><i class="icon-facebook"></i></a>
             </li>
             <li>
-              <RouterLink to="#"><i class="icon-linkedin"></i></RouterLink>
+              <a href="#"><i class="icon-linkedin"></i></a>
             </li>
             <li>
-              <RouterLink to="#"><i class="icon-dribbble"></i></RouterLink>
+              <a href="#"><i class="icon-dribbble"></i></a>
             </li>
           </ul>
         </div>
@@ -356,4 +354,15 @@
   </div>
   <!-- END container-wrap -->
 </template>
->
+
+<script lang="ts">
+  import { object } from '@amcharts/amcharts5'
+
+  export default {
+    data() {
+      return {
+        slide: object,
+      }
+    },
+  }
+</script>

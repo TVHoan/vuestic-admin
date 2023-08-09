@@ -10,9 +10,10 @@ import UIRoute from '../pages/admin/ui/route'
 
 const routes: Array<RouteRecordRaw> = [
   {
-    name: 'public',
+    name: 'Public',
     path: '/',
     component: HomeLayout,
+    redirect: '/',
     children: [
       {
         name: 'home',
